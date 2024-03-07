@@ -1,0 +1,227 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing:border-box;
+            }
+            body{
+                background: lightgray;
+            }
+            header{
+                position: fixed;
+                top: 0;
+                left:0;
+                right:0;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                font-size: 18px;
+                padding: 10px;
+                align-items: center;
+                background: white;
+            }
+            header h1{
+                width: 20%;
+                margin: 0 0 0 40px;
+                transition: All 1s;
+            }
+            header h1:hover{
+                transform: scale(1.2);
+            }
+            header .items{
+                margin: 0 12px;
+            }
+            header .items button{
+                padding: 10px 30px 10px;
+                margin: 0 10px;
+                background: transparent;
+                border: 1px solid black;
+                border-radius: 7px;
+                transition: All .3s;
+            }
+            header .items i{
+                margin: 0 10px;
+                transition: .2s linear; 
+                color:black;               
+            }
+            header .items i:hover{
+                color: violet;
+            }
+            header .logo-bars{
+                display: flex;
+                align-items: center;
+            }
+            header .items button:hover{
+                transform: scale(1.3);
+            }
+            header .logo-bars i{
+               margin: 0 0 0 20px;
+               transition: .2s linear;
+               color: black;
+            }
+            
+            header .logo-bars i:hover{
+                color: violet;
+            }
+           
+            footer{               
+                position: fixed;
+                width: 100%;
+                height: 7%;
+                bottom: 0;
+                background: white;
+            }
+            footer .fa-items{
+             display:flex;
+             align-items: center;             
+             justify-content: space-between;
+             flex-direction: row;
+             padding: 12px;
+             margin: 0 10px;
+            }
+            footer .fa-items i{          
+             margin: 0 7px;
+             
+            }
+            footer .fa-items a{
+              color: black;
+              font-weight: bold;
+              text-decoration: none;
+              font-size: 20px;
+              transition: .2s linear;
+            }
+            
+            footer .fa-items a:hover{
+                color: violet;
+            }
+            .container{
+                margin: 70px; 20px;
+            }
+            .row1{
+                   display:flex;
+                   flex-wrap: wrap;
+                   flex-direction: row;                   
+                   height: auto;
+                   background:white;
+                   box-shadow: 0px 2px 5px;
+                   border-radius: 10px;
+                   
+            }
+            .row1 h1{
+                   padding: 20px 20px;
+                   font-size: 30px;
+            }
+            .row1 img{
+                margin: 20px;
+                box-shadow: 0px 0px 0px 1px lightgray; 
+                transition: All .2s;
+            }
+            .row1 img:hover{
+                transform: scale(1.2);
+                box-shadow: 0px 0px 0px 1px black; 
+            }
+            .row2{
+                   display:flex;
+                   flex-wrap: wrap;
+                   flex-direction: row;                   
+                   height: auto;
+                   background:white;
+                   margin-top: 20px;
+                   box-shadow: 0px 2px 5px;
+                   border-radius: 10px;
+                   
+                   
+            }
+            .row2 h1{
+                   padding: 40px 20px;
+                   font-size: 30px;
+            }
+            
+            .row2 img{
+                margin: 20px;
+                box-shadow: 0px 0px 0px 1px lightgray; 
+                transition: All .2s;
+            }
+            .row2 img:hover{
+                transform: scale(1.2);
+                box-shadow: 0px 0px 0px 1px black; 
+            }
+            .row3{
+                   height: 30%;
+                   background:white;
+                   border-radius: 10px;
+                   box-shadow: 0px 2px 5px;
+                   
+            }
+            .row3 h1{
+                   padding: 60px 20px;
+                   font-size: 30px;
+            }
+            .row4{
+                   height: 30%;
+                   background:white;
+                   border-radius: 10px;
+                   box-shadow: 0px 2px 5px;
+            }
+            .row4 h1{
+                   padding: 60px 20px;
+                   font-size: 30px;
+                   
+            }
+        </style>
+    </head>
+    <body>
+        <header> 
+            <div class="logo-bars">      
+                <a href=""><i class="fa-solid fa-bars"></i></a>                    
+                <h1>LASHAFA</h1>
+            </div>                   
+            <div class="items">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <button>Sign Up</button>
+                <button>Log In</button>
+            </div>
+        </header>
+           <div class="container">
+               <h1>SHOES</h1>
+               <div class="row1">
+                  <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/585e2cd2-4f2a-408c-a8ba-f89952cdf332/revolution-6-road-running-shoes-NC0P7k.png"width="200" height="200"></img>
+                  <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/99486859-0ff3-46b4-949b-2d16af2ad421/custom-nike-dunk-high-by-you-shoes.png" width="200" height="200"></img>
+                  <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/6792a985-4a1f-43cd-ad73-39ac3955f042/kd-trey-5-ep-basketball-shoes-mkllTG.png"width="200" height="200"></img>
+                  <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/d76b79fd-e11d-458d-8177-fa1746921e21/revolution-7-road-running-shoes-Dfvsch.png"width="200" height="200"></img>
+                  <img src="https://i.ebayimg.com/images/g/BRwAAOSwnbFlDGe-/s-l1600.jpg"width="200" height="200"></img>
+               </div>
+               <div class="row2">
+                                     <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/139b86f0-7ffd-4dc2-b679-d96818e42725/gt-jump-2-ep-basketball-shoes-vttqFR.png" width="200" height="200"></img>
+                  <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/503e9eea-02dd-4f8f-91e3-6ad74a9225cc/quest-5-road-running-shoes-8wZR01.png" width="200" height="200"></img>
+     <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/db683a69-e9ad-476b-972e-a81b8a533df9/air-max-plus-shoes-SWRML2.png" width="200" height="200"></img>
+     <img src="https://cdn.urbanvibes.com/upload/mdm/media_content/resize/8a5/1000_1000_dc36/51466530299.jpg"width="200" height="200"></img>
+     <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/d217f7a3-e68c-4765-9c3f-db145d6131d6/impact-4-basketball-shoes-CcJxBx.png"width="200" height="200"></img>
+               </div>
+               <br><br>
+               <h1>CLOTHES</h1>               
+               <div class="row3">
+               </div>
+               <br><br>
+               <h1>FOODS</h1>
+               <div class="row4">
+                  
+               </div>
+           </div>
+        <footer>
+            <div class="fa-items">
+                 <a href="#"><i class="fa-solid fa-house"></i>Home</a>
+                 <a href="#"><i class="fa-solid fa-cart-shopping"></i>Shopping Cart</a>
+                 <a href="#"><i class="fa-solid fa-truck"></i>Delivery</a>
+                 <a href="#"><i class="fas fa-user-circle"></i>Account</a>
+            </div>
+        </footer>
+        
+    </body>
+</html>
